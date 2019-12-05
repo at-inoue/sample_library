@@ -1,4 +1,4 @@
-@import org.foo.Zot
+import org.foo.Zot
 
 def call(String imageName = 'image') {
   def z = Zot.new
