@@ -1,3 +1,3 @@
 def call(String imageName = 'image') {
-  sh 'bundle exec rake spec'
+  echo 'bundle exec rake spec'
 }
